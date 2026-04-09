@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Orbitron, Poppins } from "next/font/google";
 import CustomCursor from "@/components/CustomCursor";
+import type { ReactNode } from "react";
 
 const orbitron = Orbitron({
   subsets: ["latin"],
@@ -18,11 +19,10 @@ export const metadata = {
   description: "Landing page premium imersiva",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="pt-BR">
       <body className={`${orbitron.variable} ${poppins.variable}`}>
-        <CustomCursor />
         {children}
       </body>
     </html>
