@@ -1,6 +1,5 @@
 import "./globals.css";
 import { Orbitron, Poppins } from "next/font/google";
-import CustomCursor from "@/components/CustomCursor";
 import type { ReactNode } from "react";
 
 const orbitron = Orbitron({

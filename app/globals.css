@@ -134,12 +134,6 @@ html {
   scroll-behavior: smooth; /* scroll suave */
 }
 
-html,
-body {
-  height: 100%;
-  cursor: none;
-}
-
 body {
   background-image: url("/dj-crowd-lights.jpg");
   background-size: cover;
@@ -149,10 +143,6 @@ body {
   cursor: none;
 }
 
-button,
-a {
-  cursor: none !important; /* oculta cursor padrão */
-}
 html {
   scroll-behavior: smooth;
 }
@@ -172,8 +162,4 @@ h4,
 h5,
 h6 {
   font-family: var(--font-orbitron), sans-serif;
-}
-html,
-body {
-  cursor: none;
 }
